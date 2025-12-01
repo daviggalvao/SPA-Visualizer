@@ -65,7 +65,6 @@ def extrair_e_popular_listas(nome_arquivo, lista_projetos, lista_alunos):
 
 
 def SPA_GaleShapley(projetos, alunos):
-    c = 0
     alunos_livres = list(alunos)
     projetos_map = {p.codigo: p for p in projetos}
     while alunos_livres:
